@@ -47,7 +47,7 @@ export PRIVATE_KEY_LOCAL="$PRIVATE_KEY"
 export EXECUTOR_MAX_L3_GAS_PRICE="$GAS_PRICE"
 export ENABLED_NETWORKS="l2rn,arbitrum-sepolia,base-sepolia,blast-sepolia,optimism-sepolia,unichain-sepolia"
 export RPC_ENDPOINTS='{
-  "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
+  "l2rn": ["http://b2n.rpc.caldera.xyz/http"],
   "arbt": ["https://arbitrum-sepolia.drpc.org", "https://arb-sepolia.g.alchemy.com/v2/'$APIKEY_ALCHEMY'"],
   "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.g.alchemy.com/v2/'$APIKEY_ALCHEMY'"],
   "blst": ["https://sepolia.blast.io", "https://blast-sepolia.g.alchemy.com/v2/'$APIKEY_ALCHEMY'"],
